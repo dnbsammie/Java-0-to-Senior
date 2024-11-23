@@ -1,6 +1,7 @@
 /*  Samuel Rivera | Dev Senior
     Descripción de la actividad: Pida tres palabras por parte del usuario y la salida de las tres palabras en la pantalla.
 */
+
 import java.util.Scanner;
 
 public class Palabras {
