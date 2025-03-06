@@ -2,7 +2,6 @@
     Descripción de la actividad: 
     Gestión de notificaciones
 */
-
 package Modulo2.Clase04;
 
 public class Main {

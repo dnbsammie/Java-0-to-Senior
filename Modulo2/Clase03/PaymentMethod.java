@@ -2,7 +2,6 @@
     Descripción de la actividad: 
     Sistema de gestión de pagos
 */
-
 package Modulo2.Clase03;
 
 public interface PaymentMethod {

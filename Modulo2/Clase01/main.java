@@ -2,7 +2,6 @@
     Descripción de la actividad: 
     Sistema de gestión estudiantes
 */
-
 package Modulo2.Clase01;
 
 public class Main {
