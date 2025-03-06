@@ -1,3 +1,5 @@
+package Modulo3.Clase04;
+
 public class Product {
     private String name;
     private Integer stock;
