@@ -2,8 +2,7 @@
     Descripción de la actividad: 
     Tres en linea / Triqui / Tic Tac Toe
 */
-
-package Clase07;
+package Modulo1.Clase07;
 
 import java.util.*;
 

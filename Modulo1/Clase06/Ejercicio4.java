@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Generador de ID para los empleados
 */
-package Clase06;
+package Modulo1.Clase06;
 
 import java.util.HashSet;
 import java.util.Random;
@@ -14,13 +14,13 @@ public class Ejercicio4 {
     private static Set<String> generatedUIDs = new HashSet<>();
     private static Set<String> validUIDs = new HashSet<>();
     private static Set<String> invalidUIDs = new HashSet<>();
-    
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Random random = new Random();
-        
+
         boolean running = true;
-        
+
         while (running) {
             System.out.println("Seleccione una opción:");
             System.out.println("1. Generar códigos");
@@ -28,10 +28,10 @@ public class Ejercicio4 {
             System.out.println("3. Validar códigos");
             System.out.println("4. Eliminar códigos inválidos");
             System.out.println("5. Salir");
-            
+
             int option = input.nextInt();
             input.nextLine();
-            
+
             switch (option) {
                 case 1:
                     generateUIDs(random);
@@ -54,38 +54,38 @@ public class Ejercicio4 {
                     break;
             }
         }
-        
+
         input.close();
     }
 
     public static void generateUIDs(Random random) {
         generatedUIDs.clear();
-        
+
         while (generatedUIDs.size() < 100) {
             String uid = generateUID(random);
             if (!generatedUIDs.contains(uid)) {
                 generatedUIDs.add(uid);
             }
         }
-        
+
         System.out.println("\n100 códigos generados.\n");
     }
 
     public static String generateUID(Random random) {
         StringBuilder uid = new StringBuilder();
-        
+
         while (uid.length() < 10) {
             char c = (random.nextBoolean()) ? (char) ('A' + random.nextInt(26)) : (char) ('0' + random.nextInt(10));
             uid.append(c);
         }
-        
+
         return uid.toString();
     }
 
     public static void validateUIDs() {
         validUIDs.clear();
         invalidUIDs.clear();
-        
+
         for (String uid : generatedUIDs) {
             if (isValid(uid)) {
                 validUIDs.add(uid);

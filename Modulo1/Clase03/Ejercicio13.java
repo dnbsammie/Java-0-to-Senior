@@ -3,7 +3,7 @@
     Tres hermanos acuerdan reunirse. Los hermanos son identificados por los siguientes números: 1 para el mayor, 2 para el del medio y 3 para el menor.
     Cuando llega la hora de la reunión, uno de los hermanos va tarde. Dados los números de los hermanos que llegan a tiempo, determine el número del hermano que llegará tarde.
 */
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

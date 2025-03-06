@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Conversor unidades de temperatura
 */
-package Clase04;
+package Modulo1.Clase04;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

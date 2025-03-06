@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Números Primos
 */
-package Clase04;
+package Modulo1.Clase04;
 
 import java.util.Scanner;
 

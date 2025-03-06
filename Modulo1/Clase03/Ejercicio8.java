@@ -2,8 +2,7 @@
     Descripción de la actividad: 
     Escriba un programa que permita ingresar un número (va a representar la cantidad de años) y de como respuesta la etapa en la que se encuentra la persona 
 */
-
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

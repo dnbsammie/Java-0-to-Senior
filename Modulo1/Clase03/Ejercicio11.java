@@ -2,8 +2,7 @@
     Descripción de la actividad: 
     Escriba una función en la que pueda ingresar tres números enteros y diferentes. Imprima estos valores en orden ascendente.
 */
-
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

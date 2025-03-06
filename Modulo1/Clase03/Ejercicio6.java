@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Escriba un programa que permita ingresar un número y determine si es divisible por dos y siete.
 */
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

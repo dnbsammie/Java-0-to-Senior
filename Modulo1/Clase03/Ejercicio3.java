@@ -2,8 +2,7 @@
     Descripción de la actividad: 
     Escriba un programa que permita ingresar un número e identificar si es par o impar.
 */
-
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

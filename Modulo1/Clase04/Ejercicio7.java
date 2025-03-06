@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Cálculo de Potencias
 */
-package Clase04;
+package Modulo1.Clase04;
 
 import java.util.Scanner;
 

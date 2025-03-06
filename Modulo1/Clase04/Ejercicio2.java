@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Verificación de Palíndromos
 */
-package Clase04;
+package Modulo1.Clase04;
 
 import java.util.Scanner;
 

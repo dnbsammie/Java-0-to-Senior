@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Calculadora de Inventario
 */
-package Clase08;
+package Modulo1.Clase08;
 
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -10,35 +10,18 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
 
-public class Calculadora {
-    static class Product {
-        String name;
-        int quantity;
-        double price;
+public class Calculator {
+    private List<Product> products = new ArrayList<>();
+    private Scanner input = new Scanner(System.in);
+    private final int MAX_PRODUCTS = 100;
 
-        Product(String name, int quantity, double price) {
-            this.name = name;
-            this.quantity = quantity;
-            this.price = price;
-        }
-
-        @Override
-        public String toString() {
-            return "Producto: " + name + " | Cantidad: " + quantity + " | Precio: $" + price;
-        }
-    }
-
-    private static final int MAX_PRODUCTS = 100;
-    private static List<Product> products = new ArrayList<>();
-    private static Scanner input = new Scanner(System.in);
-
-    public static void main(String[] args) {
+    public void start() {
         while (true) {
             showMenu();
-            int choice = input.nextInt();
-            input.nextLine(); // Consume newline
+            int option = input.nextInt();
+            input.nextLine();
 
-            switch (choice) {
+            switch (option) {
                 case 1:
                     addProduct();
                     break;
@@ -66,8 +49,8 @@ public class Calculadora {
         }
     }
 
-    private static void showMenu() {
-        System.out.println("\n--- Menú de Inventario ---");
+    private void showMenu() {
+        System.out.println("\n--- Menú de Inventario ---\n");
         System.out.println("1. Ingresar producto");
         System.out.println("2. Mostrar productos");
         System.out.println("3. Buscar producto");
@@ -78,7 +61,7 @@ public class Calculadora {
         System.out.print("Selecciona una opción: ");
     }
 
-    private static void addProduct() {
+    private void addProduct() {
         if (products.size() >= MAX_PRODUCTS) {
             System.out.println("No se pueden agregar más productos. El inventario está lleno.");
             return;
@@ -97,7 +80,7 @@ public class Calculadora {
         System.out.println("Producto agregado con éxito.");
     }
 
-    private static void showProducts() {
+    private void showProducts() {
         if (products.isEmpty()) {
             System.out.println("No hay productos en el inventario.");
             return;
@@ -109,7 +92,7 @@ public class Calculadora {
         }
     }
 
-    private static void searchProduct() {
+    private void searchProduct() {
         System.out.print("Ingresa el nombre del producto a buscar: ");
         String name = input.nextLine();
 
@@ -123,7 +106,7 @@ public class Calculadora {
         }
     }
 
-    private static void updateProduct() {
+    private void updateProduct() {
         System.out.print("Ingresa el nombre del producto a actualizar: ");
         String name = input.nextLine();
 
@@ -146,12 +129,12 @@ public class Calculadora {
         }
     }
 
-    private static void calculateTotalInventoryValue() {
+    private void calculateTotalInventoryValue() {
         double totalValue = products.stream().mapToDouble(p -> p.quantity * p.price).sum();
         System.out.println("Valor total del inventario: $" + totalValue);
     }
 
-    private static void showMostExpensiveAndCheapestProduct() {
+    private void showMostExpensiveAndCheapestProduct() {
         if (products.isEmpty()) {
             System.out.println("No hay productos en el inventario.");
             return;
@@ -162,5 +145,10 @@ public class Calculadora {
 
         System.out.println("Producto más caro: " + mostExpensive);
         System.out.println("Producto más barato: " + cheapest);
+    }
+
+    public static void main(String[] args) {
+        Calculator calculator = new Calculator();
+        calculator.start();
     }
 }

@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Ahorcado / Hangman
 */
-package Clase07;
+package Modulo1.Clase07;
 
 import java.util.*;
 

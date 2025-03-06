@@ -2,8 +2,7 @@
     Descripción de la actividad: 
     Escriba una función en la que ingrese un número entero entre 1 y 12. Este número corresponde con un mes (1 enero, 2 febrero, ..., 12 diciembre). El resultado debe ser el número de días del mes ingresado.
 */
-
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

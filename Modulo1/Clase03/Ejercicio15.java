@@ -3,7 +3,7 @@
     Escriba un programa en el que ingrese un número y le diga si es positivo o negativo. 
     Repita el proceso hasta que se ingrese el número cero.
 */
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

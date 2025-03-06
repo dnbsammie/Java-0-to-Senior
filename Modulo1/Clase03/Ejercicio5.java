@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Escriba un programa que permita ingresar una letra e identifique si es vocal o consonante.
 */
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

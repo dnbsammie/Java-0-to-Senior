@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Gestion de una cola de impresion
 */
-package Clase05;
+package Modulo1.Clase05;
 
 import java.util.LinkedList;
 import java.util.Queue;

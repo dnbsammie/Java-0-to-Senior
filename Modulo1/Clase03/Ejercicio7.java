@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Escriba un programa que permita ingresar tres números (representan la longitud de una línea) y compruebe si con estos números se puede formar un triángulo.
 */
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

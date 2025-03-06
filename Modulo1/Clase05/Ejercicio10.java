@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Almacenamiento de configuraciones de una aplicación
 */
-package Clase05;
+package Modulo1.Clase05;
 
 import java.util.HashMap;
 import java.util.Map;

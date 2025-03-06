@@ -4,7 +4,7 @@
     - Millas a kilómetros.
     - Kilómetros a millas.
 */
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 import java.util.InputMismatchException;

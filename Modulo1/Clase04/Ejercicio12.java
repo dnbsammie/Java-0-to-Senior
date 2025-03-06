@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Conversión de segundos
 */
-package Clase04;
+package Modulo1.Clase04;
 
 import java.util.Scanner;
 

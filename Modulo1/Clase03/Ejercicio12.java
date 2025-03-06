@@ -4,8 +4,7 @@
     - SI en caso de que se pueda dividir este peso en números pares
     - NO de lo contrario.
 */
-
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Realice un programa que genere el tablero de ajedrez en consola usando instrucciones de repetición.    
 */
-package Clase03;
+package Modulo1.Clase03;
 
 public class Ejercicio20 {
     public static void main(String[] args) {

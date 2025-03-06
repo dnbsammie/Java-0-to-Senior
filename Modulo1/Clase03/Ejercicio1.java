@@ -2,8 +2,7 @@
     Descripción de la actividad: 
     Escriba un programa que permita ingresar un número real e identifique si el número es negativo, positivo o cero.
 */
-
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

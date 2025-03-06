@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Analisis de facturas de una empresa
 */
-package Clase06;
+package Modulo1.Clase06;
 
 import java.util.Arrays;
 import java.util.HashMap;

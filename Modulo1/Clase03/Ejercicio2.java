@@ -2,8 +2,7 @@
     Descripción de la actividad: 
     Escriba un programa que le permita ingresar tres números e imprima en la consola el más grande de ellos.
 */
-
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

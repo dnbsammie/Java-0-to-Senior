@@ -2,8 +2,7 @@
     Descripción de la actividad: 
     Escriba un programa que escriba en pantalla los números del 1 al 100 de 5 en 5.
 */
-package Clase03;
-
+package Modulo1.Clase03;
 
 public class Ejercicio17 {
     public static void main(String[] args) {

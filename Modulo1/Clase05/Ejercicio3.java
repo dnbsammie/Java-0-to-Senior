@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Gestión de una lista de tareas pendientes
 */
-package Clase05;
+package Modulo1.Clase05;
 
 import java.util.ArrayList;
 import java.util.Scanner;

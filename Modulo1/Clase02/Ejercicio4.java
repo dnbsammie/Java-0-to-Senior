@@ -1,15 +1,16 @@
 /*  Samuel Rivera | Dev Senior
-    Descripción de la actividad: ¿Cuánto se ha gastado Carmen?
+    Descripción de la actividad: 
+    ¿Cuánto se ha gastado Carmen?
 */
-
+package Modulo1.Clase02;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
-        double dineroCine = 23.00;
-        double dineroRestante = 12.75;
+        double moneyCinema = 23.00;
+        double moneyRemaining = 12.75;
 
-        System.out.println("Carmen fue con: $"+dineroCine);
-        System.out.println("Carmen quedo con: $"+dineroRestante);
-        System.out.println("Total gastado: $"+(dineroCine-dineroRestante));
+        System.out.println("Carmen fue con: $"+moneyCinema);
+        System.out.println("Carmen quedo con: $"+moneyRemaining);
+        System.out.println("Total gastado: $"+(moneyCinema-moneyRemaining));
     }
 }

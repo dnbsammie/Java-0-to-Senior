@@ -3,7 +3,7 @@
     Escriba un programa que permita ingresar un número mientras estos sean negativos.
     Detener cuando el número ingresado sea positivo y de cómo resultado la cantidad de números negativos ingresados.
 */
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

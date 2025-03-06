@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Matriz de rotacion
 */
-package Clase05;
+package Modulo1.Clase05;
 
 import java.util.Scanner;
 

@@ -8,8 +8,7 @@
     - Calcule la media de los números positivos.
     - Cuente la cantidad de ceros.
 */
-
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Random;
 

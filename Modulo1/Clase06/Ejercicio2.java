@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Analisis de calificaciones de estudiantes
 */
-package Clase06;
+package Modulo1.Clase06;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,17 +1,9 @@
-<h1 align="center">DEV SENIOR</h1>
-<h3 align="center">Ejercicios y proyectos en Java</h3>
+<h1 align="left">DEV SENIOR</h1>
+<h3 align="left">Ejercicios y proyectos en Java</h3>
 
-<p align="center">
-  <a href="https://github.com/dnbsammie/DevSenior_Java/issues">
-    <img src="https://img.shields.io/github/issues/dnbsammie/DevSenior_Java" alt="Issues">
-  </a>
-  <a href="https://github.com/dnbsammie/DevSenior_Java/stargazers">
-    <img src="https://img.shields.io/github/stars/dnbsammie/DevSenior_Java" alt="Stars">
-  </a>
-</p>
-<h3 align="center">🛠 Herramientas usadas:</h3>
+<h3 align="left">🛠 Herramientas usadas:</h3>
 
-<p align="center">
+<p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=java,gradle,maven,github,vscode&theme=dark" />
   </a>
@@ -19,7 +11,8 @@
 
 <!-- ABOUT -->
 <h2 id="about">Acerca del repositorio</h2>
-<p>Repositorio utilizado para la recopilación de ejercicios y proyectos a lo largo de los 12 modulos.</p>
+<p>Repositorio utilizado para la recopilación de ejercicios y proyectos a lo largo de los 12 modulos del bootcamp: Java de 0 a Senior.</p>
+<a href="https://www.devseniorcode.com/java.html">Sitio web de la carrera.</a>
 
 <!-- Contenidos -->
 <details>
@@ -43,7 +36,7 @@
     <li><a href="./Modulo1/Clase06/">Conceptos básicos de programación funcional.</a></li>
     <li><a href="./Modulo1/Clase07/">Ejercicio práctico integrador con estructuras de control.</a></li>
     <li><a href="./Modulo1/Clase08/">Calculadora de inventario.</a></li>
-    <li><a href="./Modulo1/Reto01/">Primer proyecto básico en Java.</a></li>
+    <li><a href="https://github.com/dnbsammie/Reto01">Proyecto 01: Simulador de viaje Interplanetario.</a></li>
 </ol>
 
 <!-- Modulo 2 -->
@@ -58,7 +51,7 @@
     <li><a href="./Modulo2/Clase06/">Introducción a patrones de diseño avanzados (Observer, Strategy).</a></li>
     <li><a href="./Modulo2/Clase07/">Clases anónimas, internas y lambda expressions.</a></li>
     <li><a href="./Modulo2/Clase08/">Proyecto práctico de aplicación de POO.</a></li>
-    <li><a href="./Modulo1/Reto02/">Segundo proyecto en Java</a></li>
+    <li><a href="https://github.com/dnbsammie/Reto02">Proyecto 02: .</a></li>
 </ol>
 
 <!-- Modulo 3 -->
@@ -70,8 +63,26 @@
     <li><a href="./Modulo3/Clase03/">Configuración y mejores prácticas de logging.</a></li>
     <li><a href="./Modulo3/Clase04/">Técnicas avanzadas de depuración en IDEs.</a></li>
     <li><a href="./Modulo3/Clase05/">Introducción a pruebas unitarias.</a></li>
+    <li><a href="./Modulo3/Clase06/">Deouración y resolucón de problemas comunes.</a></li>
+    <li><a href="./Modulo3/Clase07/">Taller práctico de manejo de errores y logging.</a></li>
+    <li><a href="./Modulo3/Clase08/">Mini-proyecto con enfoque en manejo de excepciones y depuración.</a></li>
+    <li><a href="https://github.com/dnbsammie/Reto03">Proyecto 03: .</a></li>
 </ol>
 
+<!-- Modulo 4 -->
+<h2 id="modulo3">Modulo 4</h2>
+<p>Manejo de Excepciones y Depuración</p>
+<ol>
+    <li><a href="./Modulo4/Clase01/">Introducción a las colecciones de Java.</a></li>
+    <li><a href="./Modulo4/Clase02/">Streams API: Introducción y operaciones básicas.</a></li>
+    <li><a href="./Modulo4/Clase03/">Streams avanzados y Parallel Streams.</a></li>
+    <li><a href="./Modulo4/Clase04/">Uso de Comparator y Comparable para ordenación.</a></li>
+    <li><a href="./Modulo4/Clase05/">Operaciones avanzadas con colecciones.</a></li>
+    <li><a href="./Modulo4/Clase06/">Uso de colecciones concurrentes.</a></li>
+    <li><a href="./Modulo4/Clase07/">Gestion avanzada de datos con colecciones y Streams.</a></li>
+    <li><a href="./Modulo4/Clase08/">Taller práctico de optimización de colecciones.</a></li>
+    <li><a href="https://github.com/dnbsammie/Reto04">Proyecto 04: .</a></li>
+</ol>
 <h2 id="author">Autor</h2>
 <ul>
   <li><strong>Autor:</strong> Samuel Rivera</li>

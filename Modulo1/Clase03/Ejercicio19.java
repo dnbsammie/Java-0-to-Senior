@@ -3,7 +3,7 @@
     Esta sucesión comienza con los números 0 y 1. El siguiente miembro se calcula como la suma de los dos inmediatamente anteriores.
     Crea un programa reciba un número (N) del usuario y muestre los primeros N números de sucesión.
 */
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

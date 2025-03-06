@@ -3,7 +3,7 @@
     Realice un programa en el que ingrese un número y muestre el cubo. 
     Repita el proceso hasta que se introduzca un valor negativo.
 */
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Scanner;
 

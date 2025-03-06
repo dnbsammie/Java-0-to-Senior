@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Funciones con uso de arrays
 */
-package Clase05;
+package Modulo1.Clase05;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -10,7 +10,8 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Ejercicio1 {
-        public static int sumArray(int[] arr) {
+    
+    public static int sumArray(int[] arr) {
         int sum = 0;
         for (int num : arr) {
             sum += num;

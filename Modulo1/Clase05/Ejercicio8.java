@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Encontrar elementos unicos en una lista de numeros
 */
-package Clase05;
+package Modulo1.Clase05;
 
 import java.util.ArrayList;
 import java.util.HashSet;

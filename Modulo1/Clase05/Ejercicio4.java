@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Verificación de duplicados en una lista de correos electrónicos.
 */
-package Clase05;
+package Modulo1.Clase05;
 
 import java.util.HashSet;
 import java.util.Scanner;

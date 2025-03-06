@@ -3,7 +3,7 @@
     Realizar un programa que permita controlar el juego de piedra, papel, tijera introduciendo P para piedra, L para papel y T para tijera por cada jugador.
     El sistema debe indicar qué jugador gana la ronda o si hay empate. Al final de cada ronda preguntar si desea volver a jugar.
 */
-package Clase03;
+package Modulo1.Clase03;
 
 import java.util.Random;
 import java.util.Scanner;

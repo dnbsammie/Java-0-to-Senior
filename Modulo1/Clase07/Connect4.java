@@ -2,8 +2,7 @@
     Descripción de la actividad: 
     Connect4 / Conecta 4
 */
-
-package Clase07;
+package Modulo1.Clase07;
 
 import java.util.*;
 

@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Simulación de una cola de clientes en un banco
 */
-package Clase05;
+package Modulo1.Clase05;
 
 import java.util.LinkedList;
 import java.util.Queue;

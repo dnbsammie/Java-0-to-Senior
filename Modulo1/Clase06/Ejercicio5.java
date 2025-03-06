@@ -2,7 +2,7 @@
     Descripción de la actividad: 
     Control de Calidad en una fabrica de electronica
 */
-package Clase06;
+package Modulo1.Clase06;
 
 import java.util.AbstractMap;
 import java.util.Arrays;
