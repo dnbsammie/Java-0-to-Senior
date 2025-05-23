@@ -1,4 +1,5 @@
-<h1 align="left">DEV SENIOR</h1>
+<h1 align="left">JAVA: De 0 a Senior</h1>
+<img src="banner.png" width="100%">
 <h3 align="left">Ejercicios y proyectos en Java</h3>
 
 <h3 align="left">🛠 Herramientas usadas:</h3>
@@ -71,7 +72,7 @@
 </ol>
 
 <!-- Modulo 4 -->
-<h2 id="modulo3">Modulo 4</h2>
+<h2 id="modulo4">Modulo 4</h2>
 <p>Manejo de Excepciones y Depuración</p>
 <ol>
     <li><a href="./Modulo4/Clase01/">Introducción a las colecciones de Java.</a></li>
@@ -84,6 +85,7 @@
     <li><a href="./Modulo4/Clase08/">Taller práctico de optimización de colecciones.</a></li>
     <li><a href="https://github.com/dnbsammie/Reto04">Proyecto 04: .</a></li>
 </ol>
+
 <h2 id="author">Autor</h2>
 <ul>
   <li><strong>Autor:</strong> Samuel Rivera</li>

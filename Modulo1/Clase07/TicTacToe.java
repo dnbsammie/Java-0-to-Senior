@@ -4,24 +4,27 @@
 */
 package Modulo1.Clase07;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class TicTacToe {
-    private static final int SIZE = 3;
-    private static char[][] board = new char[SIZE][SIZE];
-    private static char currentPlayer = 'X';
-    
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+    private final int SIZE = 3;
+    private final char[][] board = new char[SIZE][SIZE];
+    private char currentPlayer = 'X';
+
+    public TicTacToe() {
         initializeBoard();
+    }
+
+    public void play() {
+        var input = new Scanner(System.in);
         displayBoard();
 
         while (true) {
             System.out.println("Jugador " + currentPlayer + ", ingresa fila y columna (1-3): ");
-            int row = input.nextInt() - 1;
-            int col = input.nextInt() - 1;
+            var row = input.nextInt() - 1;
+            var col = input.nextInt() - 1;
 
-            if (row < 0 || row >= SIZE || col < 0 || col >= SIZE || board[row][col] != ' ') {
+            if (!isValidMove(row, col)) {
                 System.out.println("Movimiento inválido. Intenta nuevamente.");
                 continue;
             }
@@ -45,27 +48,33 @@ public class TicTacToe {
         input.close();
     }
 
-    private static void initializeBoard() {
-        for (int i = 0; i < SIZE; i++) {
-            for (int j = 0; j < SIZE; j++) {
+    private void initializeBoard() {
+        for (var i = 0; i < SIZE; i++) {
+            for (var j = 0; j < SIZE; j++) {
                 board[i][j] = ' ';
             }
         }
     }
 
-    private static void displayBoard() {
-        for (int i = 0; i < SIZE; i++) {
-            for (int j = 0; j < SIZE; j++) {
+    private void displayBoard() {
+        for (var i = 0; i < SIZE; i++) {
+            for (var j = 0; j < SIZE; j++) {
                 System.out.print(board[i][j]);
-                if (j < SIZE - 1) System.out.print(" | ");
+                if (j < SIZE - 1)
+                    System.out.print(" | ");
             }
             System.out.println();
-            if (i < SIZE - 1) System.out.println("---------");
+            if (i < SIZE - 1)
+                System.out.println("---------");
         }
     }
 
-    private static boolean checkWinner() {
-        for (int i = 0; i < SIZE; i++) {
+    private boolean isValidMove(int row, int col) {
+        return row >= 0 && row < SIZE && col >= 0 && col < SIZE && board[row][col] == ' ';
+    }
+
+    private boolean checkWinner() {
+        for (var i = 0; i < SIZE; i++) {
             if (board[i][0] == currentPlayer && board[i][1] == currentPlayer && board[i][2] == currentPlayer) {
                 return true;
             }
@@ -73,26 +82,22 @@ public class TicTacToe {
                 return true;
             }
         }
-
-        if (board[0][0] == currentPlayer && board[1][1] == currentPlayer && board[2][2] == currentPlayer) {
-            return true;
-        }
-
-        if (board[0][2] == currentPlayer && board[1][1] == currentPlayer && board[2][0] == currentPlayer) {
-            return true;
-        }
-
-        return false;
+        return (board[0][0] == currentPlayer && board[1][1] == currentPlayer && board[2][2] == currentPlayer) ||
+                (board[0][2] == currentPlayer && board[1][1] == currentPlayer && board[2][0] == currentPlayer);
     }
 
-    private static boolean isBoardFull() {
-        for (int i = 0; i < SIZE; i++) {
-            for (int j = 0; j < SIZE; j++) {
+    private boolean isBoardFull() {
+        for (var i = 0; i < SIZE; i++) {
+            for (var j = 0; j < SIZE; j++) {
                 if (board[i][j] == ' ') {
                     return false;
                 }
             }
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        new TicTacToe().play();
     }
 }

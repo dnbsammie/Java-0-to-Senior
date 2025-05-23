@@ -10,10 +10,10 @@ public class Ejercicio4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Ingresa tu nombre: ");
+        System.out.println("\nIngresa tu nombre: ");
         String name = input.nextLine();
         String message = ", Bienvenid@ al curso de Programacion en Java!!!";
-        System.out.println(name+message);
+        System.out.println(name + message);
 
         input.close();
     }

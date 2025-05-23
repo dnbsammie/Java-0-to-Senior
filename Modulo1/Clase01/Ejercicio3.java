@@ -10,7 +10,7 @@ public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Introduce la primer palabra: ");
+        System.out.println("\nIntroduce la primer palabra: ");
         String word1 = input.nextLine();
 
         System.out.println("Introduce la segunda palabra: ");
@@ -19,7 +19,7 @@ public class Ejercicio3 {
         System.out.println("Introduce la tercera palabra: ");
         String word3 = input.nextLine();
 
-        System.out.println("Las palabras son: "+ word1+" " + word2 + " "+word3);
+        System.out.println("Las palabras son: " + word1 + " " + word2 + " " + word3);
         input.close();
     }
 }

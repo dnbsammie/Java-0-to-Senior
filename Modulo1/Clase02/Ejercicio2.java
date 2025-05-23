@@ -13,7 +13,6 @@ public class Ejercicio2 {
         System.out.println("Precio calculado por kilo: $" + (priceHamg * 1000 / 100));
         System.out.println("Precio dado por el vendedor: $" + priceHamK);
 
-        // Verificamos si el precio es correcto
         if ((priceHamg * 1000 / 100) == priceHamK) {
             System.out.println("El precio es correcto.");
         } else {
