@@ -92,15 +92,15 @@
 <h2 id="modulo5">Modulo 5</h2>
 <p>Bases de Datos Relacionales y NoSQL</p>
 <ol>
-    <li><a href="./Modulo4/Clase01/">Introducción a bases de datos relacionales y SQL.</a></li>
-    <li><a href="./Modulo4/Clase02/">Conexión a bases de datos con JDBC.</a></li>
-    <li><a href="./Modulo4/Clase03/">Introducción a JPA e Hibernate.</a></li>
-    <li><a href="./Modulo4/Clase04/">Relaciones entre entidades (OneToOne, OneToMany, ManyToMany).</a></li>
-    <li><a href="./Modulo4/Clase05/">Consultas JPQL y Criteria API.</a></li>
-    <li><a href="./Modulo4/Clase06/">Optimización y uso de caché con Hibernate.</a></li>
-    <li><a href="./Modulo4/Clase07/">Introducción a bases de datos MongoDB.</a></li>
-    <li><a href="./Modulo4/Clase08/">Ejercicio práctico usando bases de datos MongoDB.</a></li>
-    <li><a href="https://github.com/dnbsammie/Reto04">Proyecto 04: .</a></li>
+    <li><a href="./Modulo5/Clase01/">Introducción a bases de datos relacionales y SQL.</a></li>
+    <li><a href="./Modulo5/Clase02/">Conexión a bases de datos con JDBC.</a></li>
+    <li><a href="./Modulo5/Clase03/">Introducción a JPA e Hibernate.</a></li>
+    <li><a href="./Modulo5/Clase04/">Relaciones entre entidades (OneToOne, OneToMany, ManyToMany).</a></li>
+    <li><a href="./Modulo5/Clase05/">Consultas JPQL y Criteria API.</a></li>
+    <li><a href="./Modulo5/Clase06/">Optimización y uso de caché con Hibernate.</a></li>
+    <li><a href="./Modulo5/Clase07/">Introducción a bases de datos MongoDB.</a></li>
+    <li><a href="./Modulo5/Clase08/">Ejercicio práctico usando bases de datos MongoDB.</a></li>
+    <li><a href="https://github.com/dnbsammie/Reto05">Proyecto 05: .</a></li>
 </ol>
 
 <h2 id="author">Autor</h2>
